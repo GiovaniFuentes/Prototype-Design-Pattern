@@ -1,3 +1,8 @@
-You can take a look at TestCloning.java to see what code is being tested 
+Once you pull the items from github, in your terminal you should be able to run the following command
 
-Please look at output.txt for what the program is actually outputting
+javac TestCloning.java 
+
+after doing so the output for the TestCloning code should be in a file called output.txt
+
+
+If you want to take a look at what changes are being made you can see that in the TestCloning.java file
