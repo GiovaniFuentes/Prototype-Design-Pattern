@@ -31,7 +31,27 @@ public class TestCloning {
         output.println("\nCloned list");
         output.println(clonedList);
 
+        output.println("\n\nNow we will create a completely new list for Joe\nit will have eggs, cheese and bacon\nWe will then make a copy of the list and give it to Jane.\nJane wants milk instead of cheese");
 
+        groceryList Joe = new groceryList("Joe", "eggs", "cheese", "bacon");
+
+        groceryList Jane = (groceryList) recipeMaker.getClone(Joe);
+        output.println("\nPrinting Joe's List then printing copy of Joe's list");
+       
+        output.println(Joe);
+
+        output.println(Jane);
+
+        output.println("\nNow we will change the cloned list to Jane's name and\nalso change cheese to Milk for jane");
+
+        Jane.setName("Jane");
+        Jane.setItem2("Milk");
+
+        output.println(Joe);
+
+        output.println(Jane);
+
+        output.println("\nNotice how only the item for the cloned list(Jane's) changed but not For Joe's");
 
 
         output.close();

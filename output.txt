@@ -1,0 +1,58 @@
+		N/A's Grocery List
+item1: No first item
+item2: No second item
+item3: No third item
+		N/A's Grocery List
+item1: No first item
+item2: No second item
+item3: No third item
+
+
+The Following proves that the cloned recipe is in a different location in memory from the first
+First List Hashcode: 1975012498
+Cloned List Hashcode: 1163157884
+
+Setting the cloned Lists's first item to
+milk and setting the the name to Bob.
+
+Printing both lists after the change
+first list
+		N/A's Grocery List
+item1: No first item
+item2: No second item
+item3: No third item
+
+Cloned list
+		Bob's Grocery List
+item1: milk
+item2: No second item
+item3: No third item
+
+
+Now we will create a completely new list for Joe
+it will have eggs, cheese and bacon
+We will then make a copy of the list and give it to Jane.
+Jane wants milk instead of cheese
+
+Printing Joe's List then printing copy of Joe's list
+		Joe's Grocery List
+item1: eggs
+item2: cheese
+item3: bacon
+		Joe's Grocery List
+item1: eggs
+item2: cheese
+item3: bacon
+
+Now we will change the cloned list to Jane's name and
+also change cheese to Milk for jane
+		Joe's Grocery List
+item1: eggs
+item2: cheese
+item3: bacon
+		Jane's Grocery List
+item1: eggs
+item2: Milk
+item3: bacon
+
+Notice how only the item for the cloned list changed but not For Joe's
