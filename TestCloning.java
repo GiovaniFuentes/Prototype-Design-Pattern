@@ -43,7 +43,8 @@ public class TestCloning {
         output.println(Jane);
 
         output.println("\nNow we will change the cloned list to Jane's name and\nalso change cheese to Milk for jane");
-
+        
+        //changing cloned name to Jane and item3 to milk
         Jane.setName("Jane");
         Jane.setItem2("Milk");
 
